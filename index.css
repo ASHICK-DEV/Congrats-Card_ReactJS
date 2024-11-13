@@ -1,0 +1,76 @@
+/* Write your code here. */
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0px;
+}
+
+.bg-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/congrats-card-bg.png');
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+  padding:30px;
+}
+
+@media (max-width:767px){
+.card {
+  background-color: #cffafe;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 30px;
+  border-radius: 10px;
+  height:400px;
+  width:450px;
+  box-sizing: border-box;
+  justify-content: space-around;
+}
+
+.name{
+    font-family: "Roboto";
+    font-size: 35px;
+}
+
+.institute{
+    font-family: "Roboto";
+    font-size: 20px;
+}
+.img{
+    height:70px;
+    width:70px;
+}
+
+}
+
+@media screen and (min-width:768px){
+.card {
+  background-color: #cffafe;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 60px;
+  border-radius: 10px;
+  height:700px;
+  width:750px;
+  box-sizing: border-box;
+  justify-content: space-around;
+}
+
+.name{
+    font-family: "Roboto";
+    font-size: 45px;
+}
+
+.institute{
+    font-family: "Roboto";
+    font-size: 25px;
+}
+
+}
